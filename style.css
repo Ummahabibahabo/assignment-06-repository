@@ -62,6 +62,92 @@
   font-weight: 400;
   color: rgba(31, 41, 55, 1);
 }
+.main-section {
+  background-color: rgba(240, 253, 244, 1);
+}
+/* about-compaign-section */
+
+.about-campaign {
+  padding: 50px 20px;
+}
+.about-campaign-title {
+  font-size: 32px;
+  font-style: 600;
+  text-align: center;
+}
+.campaign-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: auto;
+  margin-top: 15px;
+}
+.image-box img {
+  max-width: 530px;
+  border-radius: 10px;
+}
+
+.text-box {
+  max-width: 500px;
+  color: rgba(31, 41, 55, 1);
+}
+
+.text-box p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.text-box ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.text-box ul li {
+  margin-bottom: 10px;
+}
+/* impact-section-style */
+.impact-section {
+  background-color: rgba(207, 240, 220, 1);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.impact-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: rgba(31, 41, 55, 1);
+}
+
+.impact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.impact-card {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 515px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.impact-number {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(21, 128, 61, 1);
+  margin-bottom: 10px;
+}
+
+.impact-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(31, 41, 55, 1);
+}
 
 /* mobile responsive */
 @media (max-width: 576px) {
@@ -109,5 +195,51 @@
 
   .banner-content {
     padding: 0 15px;
+  }
+  /* <!-- about-compaign-section --> */
+  .campaign-style {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-box img {
+    max-width: 100%;
+  }
+
+  .text-box {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .about-campaign-title {
+    font-size: 24px;
+  }
+
+  .text-box p {
+    font-size: 14px;
+  }
+  /* impact-section */
+  .impact-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .impact-card {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .impact-title {
+    font-size: 24px;
+  }
+
+  .impact-number {
+    font-size: 26px;
+  }
+
+  .impact-label {
+    font-size: 14px;
   }
 }
