@@ -194,6 +194,15 @@
   font-weight: 500;
   border: none;
 }
+/* Footer Styles */
+.site-footer {
+  background-color: rgba(20, 83, 45, 1);
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
 
 /* mobile responsive */
 @media (max-width: 576px) {
@@ -314,5 +323,10 @@
 
   .btn-donation {
     border-radius: 20px;
+  }
+  /* footer-section */
+  .site-footer {
+    font-size: 13px;
+    padding: 12px 15px;
   }
 }
