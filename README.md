@@ -1,169 +1,44 @@
-## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-006
-
-### 📅 Deadline For 60 marks: 9th September, 2025 (11:59 pm ⏱️)
-
-### 📅 Deadline For 50 marks : 13th September , 2025 (6:00 pm⏱️)
-
-### 📅 Deadline For 30 marks: Any time after 13the September , 2025 (6:01 pm⏱️).
-
----
-# Green Earth
-
-
-## Private Repository: https://classroom.github.com/a/nVZrg5R9 
-
-## Alternative Private Repository: https://classroom.github.com/a/KCGI14ST 
-
-## Alternative Private Repository: https://classroom.github.com/a/JMuIYqgK 
-
-
----
-🌴 API Endpoints
----
-1. Get 🌴All Plants
-```bash
-https://openapi.programming-hero.com/api/plants
-```
-
-2. Get 🌴All categories <br/>
-```bash
-https://openapi.programming-hero.com/api/categories
-```
-
-
-3. Get 🌴plants by categories <br/>
-```bash
-https://openapi.programming-hero.com/api/category/${id}
-```
-
-```bash
-https://openapi.programming-hero.com/api/category/1
-```
-
-4. Get 🌴Plants Detail <br/>
-
-```bash
-https://openapi.programming-hero.com/api/plant/${id}
-```
-
-```bash
-https://openapi.programming-hero.com/api/plant/1
-```
----
-
-
-
-
-## ✅ Main Requirements 
-
-#### 1) Navbar
-
-- Website **logo/name** on the **left**  
-- **Menu items** in the **center** 
-- **Plant a Tree button** on the **right** 
-
-#### 2) Banner 
-- A **background image**  
-- A **title** and **subtitle**  
-- A **centered button**  
-
-#### 3) About Campaign
-- **Section heading**  
-- **Image on the left**, **text on the right**  
-
-#### 4) Our Impact Section 
-- Show **3 cards** with campaign **statistics**  
-
-#### 5) Plant a Tree Today Section & Footer
-- **Form**: Name, Email, Number of Trees  
-- **Footer** with copyright info 
-
-#### 6) Responsiveness 
-- Website must be **mobile responsive**  
-
----
-#### 7) Create a README file to answer the following question-
-
-
-#### 1) What is the difference between var, let, and const?
-
-#### 2) What is the difference between map(), forEach(), and filter()? 
-
-#### 3) What are arrow functions in ES6?
-
-#### 4) How does destructuring assignment work in ES6?
-
-#### 5) Explain template literals in ES6. How are they different from string concatenation?
-
-## ⚙️ Functionalities 
-
-1) Category Loading 
-Load Tree Categories dynamically on the left side.
-
-2) Category Click → Tree Data 
-On clicking a category: load trees of that category.
-
-Display in a 3-column card layout.
-
-3) Card Contents 
- Each card includes:
-
-        - Image
-
-        -  Name
-
-        - Short description
-
-        - Category
-
-        - Price
-
-        - Add to Cart button
-
-4) Modal on Card Click 
-Clicking a tree name on a card opens a modal with full tree details.
-
-
-##  🧪 Challenges 
-
-
-    1) Add to Cart 
-    Clicking Add to Cart: - Adds the tree to Cart List
-                          - Shows tree name 
-
-    2) Total Calculation 
-    Calculate total price of trees in cart.
-
-    3) Remove from Cart 
-    Clicking ❌ removes tree and deducts price from total.
-
-    4) Loading Spinner
-    Show spinner while data is loading.
-
-    5) Active Button State 
-    Highlight active category button when selected.
-
-
-
-🧰 Technology Stack:
-        
-        HTML
-
-        CSS (Vanilla / Tailwind / DaisyUI)
-
-        JavaScript (Vanilla only, no frameworks)
-
-📌 Rules
-✅ At least 5 meaningful commits
-
-❌ No dummy text or Lorem Ipsum — must use relevant content
-
-
-
-
-
-## 🔗 Submission
-- **Live Link :** YOUR_DEPLOYED_URL_HERE  
-- **GitHub Private Repository:** YOUR_REPO_URL_HERE  
-
----
+##Q-01 .What is the difference between var, let, and const?
+🟡 Ans: var (পুরনো স্টাইল)
+🔑 বৈশিষ্ট্য:
+#1.var হল পুরনোভাবে ভেরিয়েবল ডিক্লেয়ার করার পদ্ধতি।
+#2.এটা function-scoped (মানে, শুধু ফাংশনের ভেতরেই সীমাবদ্ধ থাকে)।  
+ #3.একই নামের ভেরিয়েবল পুনরায় ডিক্লেয়ার করা যায়।
+
+    🟡 Ans: let (আধুনিক ও নিরাপদ)
+
+🔑 বৈশিষ্ট্য:
+#1.let হল আধুনিক ও আরও নিরাপদ পদ্ধতি।
+#2.এটা block-scoped (মানে, {} এর ভিতরে সীমাবদ্ধ)।
+#3.একই নামের ভেরিয়েবল একই স্কোপে ডিক্লেয়ার করা যায় না।
+🟡 Ansconst (স্থির বা পরিবর্তন অযোগ্য)
+🔑 বৈশিষ্ট্য:
+#1.const ব্যবহার করলে ভেরিয়েবলের মান পরিবর্তন করা যাবে না।
+#2.এটাও block-scoped।
+#3.একবার মান সেট করলে আর চেঞ্জ করা যায় না।
+
+##Q-02.What is the difference between map(), forEach(), and filter()?
+
+🔁 1. forEach() → শুধু ঘুরে ঘুরে কাজ করে
+📌 কাজ:
+#শুধু loop করে প্রতিটা আইটেমের উপর কিছু কাজ করতে।
+#কিছু return করে না।
+
+🔁2. map() → নতুন array বানায়
+📌 কাজ:
+#প্রতিটা আইটেমের উপর কাজ করে এবং নতুন একটা array return করে।
+#পুরানো array চেঞ্জ করে না।
+
+🔁 3. filter() → শর্ত অনুযায়ী কিছু আইটেম রেখে দেয়
+📌 কাজ:
+#যেসব আইটেম শর্ত পূরণ করে, সেগুলা দিয়ে নতুন array বানায়।
+
+##Q-03.What is an arrow function in ES6?
+✅ Ans: Arrow function হল ছোট ও সহজভাবে ফাংশন লেখার নতুন স্টাইল, যেটা ES6 এ এসেছে। এটি নিজের this তৈরি করে না।
+
+##Q-04.What is destructuring in ES6?
+✅ Ans: Destructuring হলো একটি সহজ উপায়, যেটা দিয়ে আমরা array বা object থেকে মানগুলো আলাদা ভেরিয়েবলে রাখতে পারি।
+
+##Q-05.What are template literals in ES6?
+✅ Ans:Template literals হল এমন একটি উপায় যেটা দিয়ে আমরা ব্যাকটিক (`) ব্যবহার করে স্ট্রিং তৈরি করতে পারি, এবং ${} এর ভিতরে ভেরিয়েবল বা এক্সপ্রেশন বসাতে পারি।
+এটি স্ট্রিং কনক্যাটেনেশনের তুলনায় অনেক সহজ, ক্লিন এবং বুঝতে সুবিধাজনক।
